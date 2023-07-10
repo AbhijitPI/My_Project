@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>
+ Website Layout
+ </title>
+ <style>
+ * {
+ box-sizing: border-box;
+ }
+ 
+ /* CSS property for header section */
+ .header {
+ background-color: green;
+ padding: 15px;
+ text-align: center;
+ }
+ 
+ /* CSS property for navigation menu */
+ .nav_menu {
+ overflow: hidden;
+ background-color: #333;
+ }
+ .nav_menu a {
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ }
+ .nav_menu a:hover {
+ background-color: white;
+ color: green;
+ }
+ 
+ /* CSS property for content section */
+ .columnA, .columnB, .columnC {
+ float: left;
+ width: 31%;
+ padding: 15px;
+ text-align:justify;
+ }
+ h2 {
+ color:green;
+ text-align:center;
+ }
+ img{
+    border-radius: 200px;
+ }
+ 
+ /* Media query to set website layout
+ according to screen size */
+ @media screen and (max-width:600px) {
+ .columnA, .columnB, .columnC {
+ width: 50%;
+ }
+ }
+ @media screen and (max-width:400px) {
+ .columnA, .columnB, .columnC {
+ width: 100%;
+ }
+ }
+ </style>
+ </head>
+ 
+ <body>
+ 
+ <!-- header of website layout -->
+ <div class = "header">
+ <h2 style = "color:white;font-size:200%">
+7 Wonders of the Universe
+ </h2>
+ <marquee>seven wonders of the universe as per year 2023</marquee>
+ </div>
+ 
+ <!-- navigation menu of website layout -->
+ <div class = "nav_menu">
+ <a href = "weblayout.html">TajMahal</a>
+ <a href = "chinawall.html">China Wall</a>
+ <a href = "egyptpyramids.html">Egypt Pyramids</a>
+ <a href = "petra.html">Petra</a>
+ <a href = "colosseum.html">Colosseum</a>
+ <a href = "machu.html">Machu Picchu</a>
+ <a href = "chichen.html">Chichen Itza</a>
+
+ </div>
+ 
+ <!-- Content section of website layout -->
+ <div class = "row">
+ 
+ <div class = "columnA">
+ <h2>Machu Picchu</h2>
+ 
+<p>Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge.[2][3] Often referred to as the "Lost City of the Incas", it is the most familiar icon of the Inca Empire. It is located in the Machupicchu District within Urubamba Province[4] above the Sacred Valley, which is 80 kilometers (50 mi) northwest of Cusco. The Urubamba River flows past it, cutting through the Cordillera and creating a canyon with a tropical mountain climate.[5] In reference to the site’s name, for most speakers of English or Spanish, the first 'c' in Picchu is silent. In English, the name is pronounced /ˌmɑːtʃuː ˈpiːtʃuː/[6][7] or /ˌmætʃuː ˈpiːktʃuː/,[7][8] in Spanish as [ˈmatʃu ˈpitʃu] or [ˈmatʃu ˈpiɣtʃu],[9] and in Quechua (Machu Pikchu)[10] as [ˈmatʃʊ ˈpɪktʃʊ].</p>
+ </div>
+ 
+ <div class = "columnB">
+ <h2>Images</h2>
+ 
+<p style="text-align: center;margin-bottom: 30px;"><img src="C:\Users\HP\Downloads\machu.jpg"></p>
+<p style="text-align: center;margin-bottom: 30px;"><img src="C:\Users\HP\Downloads\machu2.jpg"></p>
+ </div>
+ 
+ <div class = "columnC">
+ <h2>Geography</h2>
+ 
+<p>Machu Picchu lies in the southern hemisphere, 13.111 degrees south of the equator.[74] It is 80 kilometers (50 miles) northwest of Cusco, on the crest of the mountain Machu Picchu, located about 2,430 meters (7,970 feet) above mean sea level, over 1,000 meters (3,300 ft) lower than Cusco, which has an elevation of 3,400 meters (11,200 ft).[74] As such, it had a milder climate than the Inca capital. It is one of the most important archaeological sites in South America, one of the most visited tourist attractions in Latin America and the most visited in Peru.[75]Machu Picchu features wet humid summers and dry frosty winters, with the majority of the annual rain falling from March through to October.</p>
+ </div>
+ </div>
+ </body>
+</html> 

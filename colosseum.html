@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>
+ Website Layout
+ </title>
+ <style>
+ * {
+ box-sizing: border-box;
+ }
+ 
+ /* CSS property for header section */
+ .header {
+ background-color: green;
+ padding: 15px;
+ text-align: center;
+ }
+ 
+ /* CSS property for navigation menu */
+ .nav_menu {
+ overflow: hidden;
+ background-color: #333;
+ }
+ .nav_menu a {
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ }
+ .nav_menu a:hover {
+ background-color: white;
+ color: green;
+ }
+ 
+ /* CSS property for content section */
+ .columnA, .columnB, .columnC {
+ float: left;
+ width: 31%;
+ padding: 15px;
+ text-align:justify;
+ }
+ h2 {
+ color:green;
+ text-align:center;
+ }
+ img{
+    border-radius: 200px;
+ }
+ 
+ /* Media query to set website layout
+ according to screen size */
+ @media screen and (max-width:600px) {
+ .columnA, .columnB, .columnC {
+ width: 50%;
+ }
+ }
+ @media screen and (max-width:400px) {
+ .columnA, .columnB, .columnC {
+ width: 100%;
+ }
+ }
+ </style>
+ </head>
+ 
+ <body>
+ 
+ <!-- header of website layout -->
+ <div class = "header">
+ <h2 style = "color:white;font-size:200%">
+7 Wonders of the Universe
+ </h2>
+ <marquee>seven wonders of the universe as per year 2023</marquee>
+ </div>
+ 
+ <!-- navigation menu of website layout -->
+ <div class = "nav_menu">
+ <a href = "weblayout.html">TajMahal</a>
+ <a href = "chinawall.html">China Wall</a>
+ <a href = "egyptpyramids.html">Egypt Pyramids</a>
+ <a href = "petra.html">Petra</a>
+ <a href = "colosseum.html">Colosseum</a>
+ <a href = "machu.html">Machu Picchu</a>
+ <a href = "chichen.html">Chichen Itza</a>
+
+ </div>
+ 
+ <!-- Content section of website layout -->
+ <div class = "row">
+ 
+ <div class = "columnA">
+ <h2>Colosseum</h2>
+ 
+<p>The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72[1] and was completed in 80 AD under his successor and heir, Titus (r. 79–81).[2] Further modifications were made during the reign of Domitian (r. 81–96).[3] The three emperors who were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius).</p>
+ </div>
+ 
+ <div class = "columnB">
+ <h2>Images</h2>
+ 
+<p style="text-align: center;margin-bottom: 30px;"><img src="C:\Users\HP\Downloads\colosseum3.jpg"></p>
+<p style="text-align: center;margin-bottom: 30px;"><img src="C:\Users\HP\Downloads\colosseum4.jpg"></p>
+ </div>
+ 
+ <div class = "columnC">
+ <h2>Significance in Christianity</h2>
+ 
+<p>The Colosseum is generally regarded by Christians as a site of the martyrdom of large numbers of believers during the persecution of Christians in the Roman Empire, as evidenced by Church history and tradition.[50][51][52] On the other hand, other scholars believe that the majority of martyrdoms may have occurred at other venues within the city of Rome, rather than at the Colosseum, citing a lack of still-intact physical evidence or historical records.[53][54][55] These scholars assert that "some Christians were executed as common criminals in the Colosseum—their crime being refusal to reverence the Roman gods", but most Christian martyrs of the early Church were executed for their faith at the Circus Maximus.[56][57] According to Irenaeus (died about 202), Ignatius of Antioch was fed to the lions in Rome around 107 A.D and although Irenaeus says nothing about this happening at the Colosseum, tradition ascribes it to that place.</p>
+ </div>
+ </div>
+ </body>
+</html> 
